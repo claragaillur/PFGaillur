@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
+
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+ */
+ 
+ header {
+    background-color: black;
+    height: 120px;
+    padding: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+
+ }
+ nav a {
+    color: white;
+    text-decoration: none;
+    
+    
+ }
+ .logo {
+    color: white;
+    float: left;
+    padding-top: 60px;
+ }
+ .barra {
+    float: right;
+    padding-top: 60px;
+ }
+ nav ul li {
+    display: inline-block;
+    padding: 0px 20px; 
+ }
+ .principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(multimedia/imagenfondo.jpg);
+    background-size: cover;
+
+ }
+ .carrousel {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    width: 50%;
+    float: left; 
+    margin-top: 300px;
+    
+ }
+ h1 {
+    margin-bottom: 20px;
+ }
+ .carrousel p {
+    margin-bottom: 20px;
+
+ }
+ .nosotras {
+    background-image: url(multimedia/frida1.png);
+    background-color: #739260;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+ }
+ h2{
+    font-family: 'Poppins', sans-serif;
+    color: #739260;
+    text-align: center;
+ }
+ .p-nosotras{
+    margin: 50px;
+    text-align: center;
+ }
+ .carta {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+ }
+ .carta-container {
+    display: flex;
+    padding: 20px 30px 40px 20px;
+    justify-content: space-between;
+ }
+ .img-carta {
+    height: 400px;
+    width: 150;
+ }
+ .tentate {
+    background-color: #739260;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+ }
+ .img {
+    border-left: 50%;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+ }
+ 
+ .img-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+ }
+ .class-img {
+    margin: 5px 30px;
+ }
+ .p-img {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+ }
+ .contacto {
+    background-color: white;
+    height: 70vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+ }
+ h3{
+    padding-top: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+ }
+ p {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+ } 
+ footer{
+    height: 100px;
+    background-color: black;
+    
+ }
+ .pfooter {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+ }
+ 
