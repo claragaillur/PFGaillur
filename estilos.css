@@ -23,15 +23,16 @@ font-family: 'Roboto Mono', monospace;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
    }
- nav a {
-    color: white;
-    text-decoration: none;
-    }
- .logo {
+   .logo {
     color: white;
     float: left;
     padding-top: 60px;
    }
+ nav a {
+    color: white;
+    text-decoration: none;
+    }
+ 
  .barra {
     float: right;
     padding-top: 60px;
@@ -44,8 +45,17 @@ font-family: 'Roboto Mono', monospace;
  .principal {
     height: 100vh;
     width: 100%;
-    background-image: url(multimedia/imagenfondo.jpg);
-    background-size: cover;
+    /*background-image: url(multimedia/imagenfondo.jpg);
+    background-size: 300px;*/
+    background-color: #739260;
+
+    }
+    .imgprincipal {
+      padding: 50px;
+      height: 500px;
+      width: 600px;
+      position: left;
+      
     }
  .carrousel {
     color: white;
