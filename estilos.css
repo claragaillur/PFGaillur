@@ -1,11 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap");
 
 /*
 font-family: 'Montserrat', sans-serif;
@@ -15,147 +14,284 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Mono', monospace;
 
  */
- 
- header {
-    background-color: black;
-    height: 120px;
-    padding: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-   }
-   .logo {
-    color: white;
-    float: left;
-    padding-top: 60px;
-   }
- nav a {
-    color: white;
-    text-decoration: none;
-    }
- 
- .barra {
-    float: right;
-    padding-top: 60px;
-   }
- nav ul li {
-    display: inline-block;
-    padding: 0px 20px; 
-   }
 
- .principal {
-    height: 100vh;
-    width: 100%;
-    /*background-image: url(multimedia/imagenfondo.jpg);
+header {
+  background-color: black;
+  height: 160px;
+  padding: 40x;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.logo-img {
+  float: left;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.barra {
+  float: right;
+  padding-top: 60px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 40px 30px;
+  text-shadow: 0px 0.5px 0.5px;
+}
+.jumbotron {
+   background-position: right;
+   background-size: 60%;
+   background-color: #739260;
+   height: 500px;
+}
+h1 {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color: #739260;
+}
+.p-principal {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color: #739260;
+  text-align:left;
+  padding: 30px;
+}
+span {
+   font-weight: bolder;
+}
+/* 
+.principal {
+  height: 100vh;
+  width: 100%;
+  /*background-image: url(multimedia/imagenfondo.jpg);
     background-size: 300px;*/
-    background-color: #739260;
+  /* background-color: #739260;
+}
+.imgprincipal {
+  padding: 50px;
+  height: 500px;
+  width: 600px;
+  position: left;
+} */
+/* .carrousel {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  width: 50%;
+  float: left;
+  margin-top: 300px;
+} */
+/* h1 {
+  margin-bottom: 20px;
+}
+.carrousel p {
+  margin-bottom: 20px;
+}  */
 
-    }
-    .imgprincipal {
-      padding: 50px;
-      height: 500px;
-      width: 600px;
-      position: left;
-      
-    }
- .carrousel {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    width: 50%;
-    float: left; 
-    margin-top: 300px;
-    }
- h1 {
-    margin-bottom: 20px;
-   }
- .carrousel p {
-    margin-bottom: 20px;
-   }
- .nosotras {
-    background-image: url(multimedia/frida1.png);
-    background-color: #739260;
-    height: 100vh;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 20px;
- }
- h2{
-    font-family: 'Poppins', sans-serif;
-    color: #739260;
-    text-align: center;
- }
- .p-nosotras{
-    margin: 50px;
-    text-align: center;
- }
- .carta {
-    background-color: white;
-    height: 100vh;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 20px;
- }
- .carta-container {
-    display: flex;
-    padding: 20px 30px 40px 20px;
-    justify-content: space-between;
- }
- .img-carta {
-    height: 400px;
-    width: 150;
- }
- .tentate {
-    background-color: #739260;
-    height: 100vh;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 20px;
- }
- .img {
-    border-left: 50%;
-    height: 200px;
-    width: 300px;
-    margin: 20px;
- }
- 
- .img-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 10px;
- }
- .class-img {
-    margin: 5px 30px;
- }
- .p-img {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
- }
- .contacto {
-    background-color: white;
-    height: 70vh;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 20px;
- }
- h3{
-    padding-top: 30px;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
- }
- p {
-    text-align: center;
-    padding-top: 20px;
-    font-family: 'Roboto Mono', monospace;
- } 
- footer{
-    height: 100px;
-    background-color: black;
-    
- }
- .pfooter {
-    text-align: center;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    padding: 40px;
- }
- 
+/* <!--Nosotras--> */
+.historia {
+  background-color:white;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+  display: inline;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #739260;
+  text-align: center;
+  padding-top: 50px;
+}
+.p-nosotras {
+  margin: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+.nosotras {
+   display: flex;
+   padding: 20px 70px 40px 70px;
+   justify-content: space-between;
+}
+.fri {
+   height: 400px;
+   width: 150;
+   padding-bottom: 60px;
+}
+
+/* carta */
+
+.contenedor-cartas {
+   background-color: white;
+   display: grid;
+   padding: 50px 200px;
+   grid-template-columns: repeat(3, 300px);
+   grid-template-rows: repeat(2, 300px);
+   grid-template-areas: 
+   "cartalogo1 cartalogo2 cartalogo3"
+   "carta1 carta2 carta3";
+}
+.carta {
+  border: 2px solid black;
+  padding: 30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
+  gap: 10px;
+}
+.carta1 {
+  grid-area: cartalogo1;
+  background-image: url(multimedia/cartalogo1.jpg);
+  
+}
+.carta2 {
+  grid-area: cartalogo2;
+  background-image: url(multimedia/cartalogo2.jpg);
+
+}
+.carta3 {
+  grid-area: cartalogo3;
+  background-image: url(multimedia/cartalogo3.jpg);
+}
+.carta4 {
+  grid-area: carta1;
+  background-image: url(multimedia/carta1.jpg);
+  background-size: 250px;
+  
+}
+.carta5 {
+  grid-area: carta2;
+  background-image: url(multimedia/carta2.jpg);
+
+}
+.carta6 {
+  grid-area: carta3;
+  background-image: url(multimedia/carta3.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.class-img {
+padding: 20px;
+}
+
+/* tentate */
+
+.tentate {
+  background-color: #739260;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.contenedor {
+ height: 100%;
+ width: 100%;
+  background-color: #739260;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 180px);
+  grid-template-areas:
+    "img1 img2 img3 img3"
+    "img1 img4 img5 img6"
+    "img7 img4 img8 img8";
+  padding: 70px;
+  grid-gap: 15px;
+}
+
+.item {
+  border: 1px solid white;
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+}
+.item:hover {
+  transform: scale(1.2);
+}
+.item1 {
+  grid-area: img1;
+  background-image: url(multimedia/relleno.jpg);
+}
+.item2 {
+  grid-area: img2;
+  background-image: url(multimedia/sorrentinos1.jpg);
+}
+.item3 {
+  grid-area: img3;
+  background-image: url(multimedia/frida.jpg);
+}
+.item4 {
+  grid-area: img4;
+  background-image: url(multimedia/sorrentinos.jpg);
+}
+.item5 {
+  grid-area: img5;
+  background-image: url(multimedia/raviolones.jpg);
+}
+.item6 {
+  grid-area: img6;
+  background-image: url(multimedia/mesa.jpg);
+}
+.item7 {
+  grid-area: img7;
+  background-image: url(multimedia/mesa1.jpg);
+}
+.item8 {
+  grid-area: img8;
+  background-image: url(multimedia/frida1.jpg);
+}
+
+/* Contacto */
+.contacto {
+  background-color: white;
+  height: 70vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+}
+h3 {
+  padding-top: 30px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+footer {
+  height: 100px;
+  background-color: black;
+}
+.pfooter {
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 40px;
+}
