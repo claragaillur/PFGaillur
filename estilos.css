@@ -2,10 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;   */
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
@@ -14,19 +20,23 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Mono', monospace;
 
  */
-
 header {
-  background-color: black;
+  display: flex;
   height: 160px;
   padding: 40x;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
+  justify-content: space-between;
 }
 .logo-img {
-  float: left;
+  
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 178px;
+  width: 180px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  object-fit: cover;
 }
 nav a {
   color: white;
@@ -42,25 +52,48 @@ nav ul li {
   padding: 40px 30px;
   text-shadow: 0px 0.5px 0.5px;
 }
+/*Inicio Jumbotron*/
 .jumbotron {
-   background-position: right;
-   background-size: 60%;
-   background-color: #739260;
-   height: 500px;
+  /* background-image: url(multimedia/mesa1.jpg); */
+ display: flex;
+ justify-content: space-between;
 }
+.jleft {
+  width: 50%;
+  background-color: #739260;
+  opacity: 0.9;
+  border-radius: 10px;
+  text-align: center;
+}
+.jimg {
+  border-radius: 7px;
+  opacity: 0.7;
+}
+.jright {
+  width: 50%;
+  background-color: white;
+ padding: 80px;
+}
+
 h1 {
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
-   color: #739260;
+   font-family: Bangers;
+   color: black;
+   font-size: 35px;
+   padding-top: 60px;
+   padding-left: 10px;
 }
 .p-principal {
    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   color: #739260;
-  text-align:left;
+   color: black;
+   font-size: 25px;
+  text-align:center;
   padding: 30px;
+  font-family: Poppins;
 }
 span {
    font-weight: bolder;
 }
+/*Fin Jumbotron*/
 /* 
 .principal {
   height: 100vh;
@@ -120,8 +153,67 @@ h2 {
    padding-bottom: 60px;
 }
 
-/* carta */
 
+header {
+    height: 150px;
+}
+main {
+    background-color: #739260;
+    opacity: 0.9;
+    height: 400px;
+}
+.tituloMain {
+    padding-top: 25px;
+    font-family: Poppins;
+
+
+}
+.parrafoMain {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.main, aside {
+    height: 400px;
+}
+aside {
+    background-image: url(multimedia/principal.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    object-fit: cover;
+}
+/* .separacion {
+    background-color: #739260;
+    height: 20px;
+    width: 100%;
+} */
+/* CARTAS */
+.cartaLogo {
+    background-image: url(multimedia/cartalogo2.jpg);
+background-size: cover;
+background-position: center;
+}
+article {
+    height: 350px;
+    border: 1px solid black;
+    font-family: Poppins;
+}
+.tituloCarta {
+    padding-top: 40px;
+    font-weight: bold;
+
+}
+.itemsCarta {
+    padding-top: 20px;
+    font-size: 20px;
+    justify-content: center;
+}
+/* NO PUDE LOGRAR QUE LAS VIÑETAS ME QUEDEN ADENTRO */
+
+/* carta */
+/* 
 .contenedor-cartas {
    background-color: white;
    display: grid;
@@ -138,12 +230,12 @@ h2 {
   background-size: cover;
   background-position: center;
   border-radius: 7px;
-  gap: 10px;
+  grid-g
 }
 .carta1 {
   grid-area: cartalogo1;
   background-image: url(multimedia/cartalogo1.jpg);
-  
+
 }
 .carta2 {
   grid-area: cartalogo2;
@@ -170,35 +262,9 @@ h2 {
   background-image: url(multimedia/carta3.jpg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .class-img {
 padding: 20px;
-}
+} */
 
 /* tentate */
 
@@ -285,13 +351,19 @@ p {
   padding-top: 20px;
   font-family: "Roboto Mono", monospace;
 }
+
+/*Footer*/
 footer {
-  height: 100px;
-  background-color: black;
+  padding: 20px;
+  margin-top: 40px;
+
 }
-.pfooter {
-  text-align: center;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  padding: 40px;
+footer .redes {
+  padding-top: 10px;
+}
+footer .redes a {
+  color: #739260;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 7px;
 }
