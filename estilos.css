@@ -2,38 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&display=swap');
-  /* font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Montserrat+Alternates:wght@200&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@200&family=Smooch+Sans:wght@300&display=swap'); */
+/* font-family: 'Montserrat', sans-serif;
   font-family: 'Montserrat Alternates', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Mono', monospace;   */
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Montserrat Alternates', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto Mono', monospace;
 
- */
 header {
   display: flex;
-  height: 160px;
+  height: 200px;
   padding: 40x;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   justify-content: space-between;
 }
 .logo-img {
-  
+
+  height: 260px;
+  width: 260px;
   border-radius: 50%;
-  height: 178px;
-  width: 180px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   padding-left: 40px;
   padding-top: 20px;
   object-fit: cover;
@@ -42,41 +36,47 @@ nav a {
   color: white;
   text-decoration: none;
 }
-
 .barra {
   float: right;
-  padding-top: 60px;
+  padding-top: 120px;
 }
 nav ul li {
   display: inline-block;
   padding: 40px 30px;
-  text-shadow: 0px 0.5px 0.5px;
+  text-shadow: 0px 0.5px 0.5px #739260;
 }
 /*Inicio Jumbotron*/
 .jumbotron {
-  /* background-image: url(multimedia/mesa1.jpg); */
+  background-image: url(multimedia/fondojumbotron.jpg);
+  background-size: cover;
+  background-position: center;
  display: flex;
  justify-content: space-between;
+ padding-top: 50px;
 }
 .jleft {
+  height: 500px;
   width: 50%;
   background-color: #739260;
   opacity: 0.9;
   border-radius: 10px;
   text-align: center;
 }
+.jright {
+  width: 50%;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 80px;
+  border-radius: 10px;
+}
 .jimg {
   border-radius: 7px;
   opacity: 0.7;
-}
-.jright {
-  width: 50%;
-  background-color: white;
- padding: 80px;
+  padding-right: 50px;
 }
 
 h1 {
-   font-family: Bangers;
+   font-family: "Roboto Mono";
    color: black;
    font-size: 35px;
    padding-top: 60px;
@@ -88,56 +88,31 @@ h1 {
    font-size: 25px;
   text-align:center;
   padding: 30px;
-  font-family: Poppins;
+
 }
 span {
    font-weight: bolder;
 }
 /*Fin Jumbotron*/
-/* 
-.principal {
-  height: 100vh;
-  width: 100%;
-  /*background-image: url(multimedia/imagenfondo.jpg);
-    background-size: 300px;*/
-  /* background-color: #739260;
-}
-.imgprincipal {
-  padding: 50px;
-  height: 500px;
-  width: 600px;
-  position: left;
-} */
-/* .carrousel {
-  color: white;
-  font-family: "Roboto Mono", monospace;
-  width: 50%;
-  float: left;
-  margin-top: 300px;
-} */
-/* h1 {
-  margin-bottom: 20px;
-}
-.carrousel p {
-  margin-bottom: 20px;
-}  */
 
 /* <!--Nosotras--> */
 .historia {
   background-color:white;
   height: 100%;
   width: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-top: 20px;
   display: inline;
+  
 }
 h2 {
-  font-family: "Poppins", sans-serif;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   color: #739260;
   text-align: center;
   padding-top: 50px;
 }
 .p-nosotras {
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
   margin: 50px;
   padding-top: 10px;
   text-align: center;
@@ -151,20 +126,22 @@ h2 {
    height: 400px;
    width: 150;
    padding-bottom: 60px;
+   padding-left: 100px;
+   padding-right: 100px;
+   border-radius: 7px;
+   position: relative;
 }
 
 
-header {
-    height: 150px;
-}
 main {
     background-color: #739260;
     opacity: 0.9;
     height: 400px;
 }
 .tituloMain {
-    padding-top: 25px;
-    font-family: Poppins;
+  text-transform: uppercase;
+    padding-top: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 
 }
@@ -173,12 +150,13 @@ main {
     text-align: center;
     font-weight: bolder;
     padding-top: 30px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 .main, aside {
     height: 400px;
 }
 aside {
-    background-image: url(multimedia/principal.jpg);
+    background-image: url(multimedia/fricarta.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 8px;
@@ -198,73 +176,26 @@ background-position: center;
 article {
     height: 350px;
     border: 1px solid black;
-    font-family: Poppins;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
 }
 .tituloCarta {
     padding-top: 40px;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .itemsCarta {
-    padding-top: 20px;
-    font-size: 20px;
-    justify-content: center;
+  padding-top: 20px;
+  font-size: 20px;
+  justify-content: center;
 }
+.itemsCarta23 {
+  line-height: 1.8;
+}
+
 /* NO PUDE LOGRAR QUE LAS VIÑETAS ME QUEDEN ADENTRO */
 
-/* carta */
-/* 
-.contenedor-cartas {
-   background-color: white;
-   display: grid;
-   padding: 50px 200px;
-   grid-template-columns: repeat(3, 300px);
-   grid-template-rows: repeat(2, 300px);
-   grid-template-areas: 
-   "cartalogo1 cartalogo2 cartalogo3"
-   "carta1 carta2 carta3";
-}
-.carta {
-  border: 2px solid black;
-  padding: 30px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 7px;
-  grid-g
-}
-.carta1 {
-  grid-area: cartalogo1;
-  background-image: url(multimedia/cartalogo1.jpg);
-
-}
-.carta2 {
-  grid-area: cartalogo2;
-  background-image: url(multimedia/cartalogo2.jpg);
-
-}
-.carta3 {
-  grid-area: cartalogo3;
-  background-image: url(multimedia/cartalogo3.jpg);
-}
-.carta4 {
-  grid-area: carta1;
-  background-image: url(multimedia/carta1.jpg);
-  background-size: 250px;
-  
-}
-.carta5 {
-  grid-area: carta2;
-  background-image: url(multimedia/carta2.jpg);
-
-}
-.carta6 {
-  grid-area: carta3;
-  background-image: url(multimedia/carta3.jpg);
-}
-
-.class-img {
-padding: 20px;
-} */
 
 /* tentate */
 
@@ -297,7 +228,7 @@ padding: 20px;
   transition: all 1s;
 }
 .item:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 .item1 {
   grid-area: img1;
@@ -309,7 +240,7 @@ padding: 20px;
 }
 .item3 {
   grid-area: img3;
-  background-image: url(multimedia/frida.jpg);
+  background-image: url(multimedia/mesa2.jpg);
 }
 .item4 {
   grid-area: img4;
@@ -329,7 +260,7 @@ padding: 20px;
 }
 .item8 {
   grid-area: img8;
-  background-image: url(multimedia/frida1.jpg);
+  background-image: url(multimedia/tartita.jpg);
 }
 
 /* Contacto */
