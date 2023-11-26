@@ -110,6 +110,7 @@ h2 {
   color: #739260;
   text-align: center;
   padding-top: 50px;
+  font-family: 'Abril Fatface';
 }
 .p-nosotras {
   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
@@ -132,7 +133,7 @@ h2 {
    position: relative;
 }
 
-
+/* CARTAS */
 main {
     background-color: #739260;
     opacity: 0.9;
@@ -142,14 +143,14 @@ main {
   text-transform: uppercase;
     padding-top: 60px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
-
 }
 .parrafoMain {
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
     padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 .main, aside {
@@ -167,7 +168,7 @@ aside {
     height: 20px;
     width: 100%;
 } */
-/* CARTAS */
+
 .cartaLogo {
     background-image: url(multimedia/cartalogo2.jpg);
 background-size: cover;
@@ -266,27 +267,42 @@ article {
 /* Contacto */
 .contacto {
   background-color: white;
-  height: 70vh;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  padding-top: 20px;
-}
+  padding-top : 100px;
+  margin-bottom: 200px;
+} 
 h3 {
   padding-top: 30px;
-  color: black;
+  color:#739260;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-p {
+.itemContacto {
+  height: 450px;
+  border: 2px #739260;
+}
+.pContacto {
+  color: #739260;
   text-align: center;
   padding-top: 20px;
+  line-height: 1.5;
   font-family: "Roboto Mono", monospace;
 }
-
+.contactoFoto1 {
+  background-image: url(multimedia/local.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.contactoFoto2 {
+  background-image: url(multimedia/local2.jpg);
+  background-size: cover;
+  background-position: center;
+}
 /*Footer*/
 footer {
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 60px;
 
 }
 footer .redes {
