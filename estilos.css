@@ -41,16 +41,17 @@
   background-size: cover;
   background-repeat: none;
 }
+.containerinicio .fila {
+  padding: 70px;
+}
 .containerinicio .jleft {
   height: 500px;
-  width: 50%;
   background-color: #739260;
   opacity: 0.9;
   border-radius: 10px;
   text-align: center;
 }
 .containerinicio .jright {
-  width: 50%;
   background-color: black;
   opacity: 0.8;
   padding: 80px;
@@ -68,14 +69,6 @@ h1 {
   font-size: 45px;
   padding-top: 60px;
   padding-left: 10px;
-}
-h1 .jumbotron {
-  background-image: url(multimedia/fondojumbotron.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
 }
 
 .p-principal {
@@ -98,26 +91,49 @@ h1 .jumbotron {
   font-family: Montserrat;
   padding-top: 20px;
 }
-.historia h2 {
+
+h2 {
   font-family: Abril Fatface;
   color: #739260;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 30px;
 }
-.historia .p-nosotras {
+
+.p-nosotras {
   font-family: Abril Fatface;
-  margin: 50px;
   text-align: center;
   font-size: 20px;
   padding-top: 10px;
   padding-left: 50px;
 }
-.historia .p-fri {
+
+.hover-color-change:hover {
+  color: #739260;
+}
+
+.p-fri {
   font-family: Abril Fatface;
   color: #739260;
   padding-left: 50px;
+  padding-top: 25px;
   text-align: center;
   font-size: 30px;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px); /* Ajusta la distancia que se moverá el texto */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.moving-text {
+  animation: moveText 3s ease infinite; /* Ajusta la duración y la función de temporización según tus necesidades */
 }
 
 .nosotras {
@@ -172,14 +188,11 @@ main {
   text-align: center;
   font-weight: bolder;
   padding-top: 50px;
+  padding-bottom: 50px;
   margin-left: 70px;
   margin-right: 70px;
   font-size: 20px;
   line-height: 2;
-}
-
-.main, aside {
-  height: 500px;
 }
 
 aside {
@@ -374,15 +387,6 @@ footer .redes a {
   padding-bottom: 20px;
 }
 
-/* MEDIA QUERY */
-@media (max-width: 768px) {
-  .navbar-collapse {
-    display: none; /* Oculta el menú en pantallas más pequeñas */
-  }
-  .navbar-toggler {
-    display: block; /* Muestra el botón de hamburguesa en pantallas más pequeñas */
-  }
-}
 @media only screen and (min-width: 1024px) {
   .contenedor {
     grid-template-columns: repeat(4, 1fr);
@@ -404,14 +408,23 @@ footer .redes a {
     grid-template-areas: "img1 img2" "img3 img4" "img5 img6" "img7 img8";
   }
 }
-@media (max-width: 767px) {
-  .containerinicio .jleft {
+@media only screen and (max-width: 767px) {
+  .containerinicio .fila .jleft {
     text-align: center;
-    height: auto;
-    width: 100%;
-    margin: 0;
+    max-width: 100%;
+    padding: 0;
   }
   .containerinicio .jright {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 610px) and (min-width: 511px) {
+  .p-principal {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .p-principal {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=estilos.css.map */
